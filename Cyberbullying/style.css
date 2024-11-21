@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #3f3f3f;
+    overflow-x: hidden;
+}
+
+#header-content{
+    background-color:#2d2c66;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    margin-left: 5rem;
+}
+
+.list-content li{
+   display: inline-block; 
+   font-size: 2rem;
+   padding: 1.5rem .5rem;
+}
+
+.list-content a:hover {
+    color: #ffffff;
+    transition: .3s ease-in-out;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.452);
+}
+
+.list-content a {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    padding: 15px 20px;
+}
+.content-sobre {
+    display: flex;
+    width: 100vw;
+    background-color: #48477a;
+}
+
+.content-sobre h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 7rem;
+    color: #e7e7e7;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    min-width: 250px;
+    height: 250px;
+}
+
+.section-content {
+    display: flex;
+    height: 550px;
+    margin-top: 25rem;
+    justify-content: center;
+    text-decoration: underline solid #b6a64d;
+    width: 100%;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20rem;
+}
+
+.info-content1 {
+    display: flex;
+    background-color: #bbbcff;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+}
+
+
+.foot {
+    margin-left: 1px;
+    height: 65rem;
+}
+
+.info-content1 h2 {
+   
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #48477a;
+    font-size: 7rem; 
+    padding-top: 2rem; 
+    flex: 1; 
+}
+
+.info-content1 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    margin-top: 1rem; 
+    padding-right: 30px; 
+    flex: 1; 
+}
+p{
+    color: rgb(32, 32, 32);
+}
+
+
+ /* Comecando f2*/
+
+ .sobre-bullying {
+    color: #fdf9ce;
+    font-family: "Oswald", sans-serif;
+ }
+
+.info-content {
+    display: flex;
+    background-color: #bbbcff;
+    max-height: 700px;
+    width: 100%;
+    justify-content: flex-end; /* ou flex-start, dependendo do alinhamento desejado */
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.info-content h2 {
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #48477a;
+    text-align: right;
+    font-size: 7rem;
+    padding-top: 10rem;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.info-content p {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    text-align: right; 
+    margin-top: 1rem; 
+    padding: 30px; 
+    max-width: 124rem;
+}
+.img-bl {
+    width: 100rem;
+    justify-content: right;
+}
+
+/* Impactos conteudo*/
+
+.impact-content {
+    background-color: #2d2c66;
+    height: 500px;
+    font-size: 7rem;
+    font-style: italic;
+}
+
