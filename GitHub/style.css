@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --font-primary: "Inter";
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    height: 100%;
+    min-width: 1048px;
+}
+
+body {
+    height: 100%;
+    background-image: url(./background-mauricio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+#menu-content {
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    justify-content: flex-end;
+}
+
+#menu-content a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   padding:0 1rem;
+   letter-spacing: .1rem;
+   font-weight: 200;
+}
+
+#menu-content li {
+    display: inline-block;
+    font-family: var(--font-primary);
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.intro-content{
+    display: flex;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.83);
+    height: 30rem;
+    align-items: flex-end;
+}
+
+.intro-text {
+    font-family: var(--font-primary);
+    font-weight: 100;
+    letter-spacing: .3rem;
+    display: flex;
+    font-size: 4rem;
+    margin-left: 10rem;
+    position: relative;
+}
+
+.circle-config{
+    background-color: rgb(170, 78, 78);
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    position: absolute;
+    right: -1.2rem;
+    bottom: .76rem;
+    opacity: 1;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.content-home {
+    font-family: var(--font-primary);
+    font-size: 8rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    color: #ffffff;
+    font-size: 2rem;
+    max-width: 55rem;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.59);
+}
+
+.conect-span {
+    color: rgb(214, 214, 214);
+    text-decoration: underline;
+    letter-spacing: .1rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+}
+
+.social-media a{
+    color: wheat;
+    list-style: none;
+    text-decoration: none;
+    gap: 50px;
+    background-color: red;
+    margin: 5px;
+}
+
+.social-media p{
+    background-color: red;
+    margin: 5px;
+    list-style: none;
+}
+
+#menu-content a:hover{
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 10);
+    font-weight: 250;
+    transition: .2s;
+}
